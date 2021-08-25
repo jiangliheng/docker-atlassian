@@ -21,8 +21,20 @@ https://registry.hub.docker.com/r/jlh21
 # docker-atlassian-confluence-server
 ## [docker-atlassian-confluence-server](https://github.com/jiangliheng/docker-atlassian/tree/master/docker-atlassian-confluence-server)
 
-基于 atlassian 官方的 confluence 6.9.1 版本修改
+基于 atlassian 官方的 confluence 6.9.1-alpine 版本修改
 > https://bitbucket.org/atlassian-docker/docker-atlassian-confluence-server/src/6.9.1-alpine/
+
+**修改点:**
+1. 修改字符集为：zh_CN.UTF-8
+2. 修改时区为：Asia/Shanghai
+3. 增加 Mysql 驱动
+
+
+# docker-atlassian-bitbucket-server
+## [docker-atlassian-bitbucket-server](https://github.com/jiangliheng/docker-atlassian/tree/master/docker-atlassian-bitbucket-server)
+
+基于 atlassian 官方的 bitbucket 5.11.1-alpine 版本修改
+> https://bitbucket.org/atlassian-docker/docker-atlassian-bitbucket-server/src/5.11.1-alpine/
 
 **修改点:**
 1. 修改字符集为：zh_CN.UTF-8
