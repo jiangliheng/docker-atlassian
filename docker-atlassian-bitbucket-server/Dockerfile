@@ -40,4 +40,4 @@ RUN mkdir -p                             ${BITBUCKET_INSTALL_DIR} \
     && curl -L --silent                  ${DOWNLOAD_URL} | tar -xz --strip-components=1 -C "$BITBUCKET_INSTALL_DIR" \
     && chown -R ${RUN_USER}:${RUN_GROUP} ${BITBUCKET_INSTALL_DIR}/
 
-COPY lib/*             /opt/bitbucket/lib/
+COPY lib/*             /opt/atlassian/bitbucket/app/WEB-INF/lib
